@@ -2,7 +2,7 @@
 <style>
 	body#login::before {
     content: "";
-    background: #00000036;
+    background: #3f020236;
     position: absolute;
     top: 0;
     /* z-index: 1; */
