@@ -1,0 +1,21 @@
+# PHP / general
+*.log
+*.tmp
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS / local
+Thumbs.db
+
+# Dependencies (if added later)
+vendor/
+node_modules/
+
+# Uploads / generated content
+admin/uploads/
+
+# Cache
+.cache/
