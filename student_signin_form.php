@@ -7,7 +7,7 @@
 			<select name="class_id" class="input-block-level span5">
 				<option></option>
 				<?php
-				$query = mysqli_query($conn,"select * from class order by class_name ")or die(mysqli_error());
+				$query = mysqli_query($conn,"select * from class order by class_name ")or die(mysqli_error($conn));
 				while($row = mysqli_fetch_array($query)){
 				?>
 				<option value="<?php  echo $row['class_id']; ?>"><?php echo $row['class_name']; ?></option>
